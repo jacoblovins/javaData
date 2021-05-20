@@ -25,6 +25,8 @@ public class Arrays {
 //			System.out.println(nums[i]);
 //		}
 		
+		
+//		Reversing arrays interview question
 		int[] nums = {1, 2, 3, 4};
 		
 		ReversingArrays reverseArray = new ReversingArrays();
@@ -32,8 +34,21 @@ public class Arrays {
 		int[] reversedArray = reverseArray.reverseArray(nums);
 		
 		for(int i = 0; i < reversedArray.length; i++) {
-			System.out.print(reversedArray[i] + " ");
+			System.out.println(reversedArray[i] + " ");
 		}
+		
+		
+		
+//		Anagram interview question
+		char[] s1 = {'r', 'e', 's', 't', 'f', 'u', 'l'};
+		char[] s2 = {'f', 'l', 'u', 's', 't', 'e', 'r'};
+		
+		AnagramProblem anagramProblem = new AnagramProblem();
+		System.out.println(anagramProblem.solve(s1, s2));
+		
+		
+		
+		
 		
 
 	}
