@@ -47,7 +47,11 @@ public class Arrays {
 		System.out.println(anagramProblem.solve(s1, s2));
 		
 		
+//		Repetition interview question
+		int[] array = {2, 3, 1, 2, 4, 3};
 		
+		RepeatedIntegersProblem repeatedIntegersProblem = new RepeatedIntegersProblem();
+		repeatedIntegersProblem.solve(array);
 		
 		
 
