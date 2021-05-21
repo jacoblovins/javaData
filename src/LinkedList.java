@@ -59,7 +59,7 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
 //		First we have to find the node we want to remove
 		while(actualNode != null) {
 //			This is the node we want to remove
-			if(root.getData().compareTo(data) == 0) {
+			if(actualNode.getData().compareTo(data) == 0) {
 //				Update the references
 				numOfItems--;
 				previousNode.setNextNode(actualNode.getNextNode());
