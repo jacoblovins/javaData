@@ -52,7 +52,6 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
 			
 		}
 		
-		
 	}
 
 	private void remove(T data, Node<T> previousNode, Node<T> actualNode) {

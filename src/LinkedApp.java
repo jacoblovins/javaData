@@ -3,15 +3,17 @@ public class LinkedApp {
 
 	public static void main(String[] args) {
 		
-		LinkedList<String> names = new LinkedList<>();
+		LinkedList<Person> people = new LinkedList<>();
 		
-		names.insert("Adam");
-		names.insert("Daniel");
-		names.insert("Ana");
+		Person p = new Person(23, "Adam");
 		
-		names.traverse();
-		names.remove("Daniel");
-		names.traverse();
+		people.insert(p);
+		people.insert(new Person(34, "Daniel"));
+		people.insert(new Person(56, "Michael"));
+		
+		people.remove(p);
+		
+		people.traverse();
 
 	}
 
